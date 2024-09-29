@@ -2,6 +2,8 @@
 
 // import org.junit.jupiter.api.Test;
 
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args) {
 
@@ -18,6 +20,12 @@ public class Main {
     System.out.println(valor);
     System.out.println(valor.contains("Java"));
     System.out.println(valor.length());
+
+    System.out.println("Informe seu Nome");
+    Scanner entrada = new Scanner(System.in);
+    String nome = entrada.nextLine();
+    entrada.close();
+    System.out.println("Seu nome é: " + nome);
 
   }
 
