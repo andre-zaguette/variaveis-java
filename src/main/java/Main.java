@@ -26,7 +26,6 @@ public class Main {
     String nome = entrada.nextLine();
     entrada.close();
     System.out.println("Seu nome é: " + nome);
-
   }
 
   // @Test
