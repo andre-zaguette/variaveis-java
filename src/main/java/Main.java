@@ -6,6 +6,8 @@ public class Main {
     float saldo;
     String valor = "Descomplica - Java";
 
+    double numA, numB, total;
+
     numero = 1;
     saldo = 1.1f;
 
@@ -21,5 +23,11 @@ public class Main {
     String nome = entrada.nextLine();
     entrada.close();
     System.out.println("Seu nome é: " + nome);
+
+    numA = 3;
+    numB = 2.5;
+    total = numA + numB;
+    System.out.println(total);
+
   }
 }
