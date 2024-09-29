@@ -1,12 +1,7 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
-
 import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-
     int numero;
     float saldo;
     String valor = "Descomplica - Java";
@@ -27,9 +22,4 @@ public class Main {
     entrada.close();
     System.out.println("Seu nome é: " + nome);
   }
-
-  // @Test
-  // void addition() {
-  // assertEquals(2, 1 + 1);
-  // }
 }
